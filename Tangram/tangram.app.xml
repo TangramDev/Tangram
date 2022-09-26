@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<app>
+  <mainform objid="CloudForm.Form1,CloudForm" mainwindow="true" mdibkpageid="sunnymdiforms.bk,SunnyMDIForms" caption="向经典致敬" width="2800" height="1600" id="mainForm" mainframe="hostframe">
+    <panel1 id="mainworkclient">
+      <default>
+        <nucleus>
+          <xobj style="5" activepage="1" xobjtype="tabctrl" objid="mfctab" location="3">
+            <xobj caption="Cloudx Application" id='Splitter1' rows='1' cols='2' height='250,' width='350,350,' borderwidth='0' splitterwidth='6'>
+              <xobj objid="nucleus" id="hostclient">
+              </xobj>
+              <xobj objid="" id="Sunny_ntpctrl">
+              </xobj>
+            </xobj>
+            <xobj caption="Common Web Runtime for Application" id="host"></xobj>
+          </xobj>
+        </nucleus>
+      </default>
+    </panel1>
+  </mainform>
+</app>
